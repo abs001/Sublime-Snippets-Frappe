@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+frappe.get_doc(${1:docname},${2:pri_value})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>frappe.get</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>
