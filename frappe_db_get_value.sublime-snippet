@@ -1,9 +1,10 @@
 <snippet>
 	<content><![CDATA[
-frappe.get_doc(${1:doctype_name},${2:name})
+frappe.db.get_value(${1:doctype_name}, {${2:filter_key}: ${3:filter_value}}, [${4:list_of_fileds_to_select}])
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>frappe.get_doc</tabTrigger>
+	<tabTrigger>frappe.db.get_value</tabTrigger>
+	<description> 		Returns single 'name' of the record</description>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.python</scope>
 </snippet>
