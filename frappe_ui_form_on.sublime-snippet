@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+frappe.ui.form.on('${1:document_name}', {
+	refresh: function(frm) {
+		// Your code goes here
+	}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>frappe.ui.form.on</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

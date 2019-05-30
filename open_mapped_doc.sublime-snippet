@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+frappe.model.open_mapped_doc({
+	method: "${1:method_name}", //e.g. erpnext.crm.doctype.lead.lead.make_customer
+	frm: cur_frm
+})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>open_mapped_doc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

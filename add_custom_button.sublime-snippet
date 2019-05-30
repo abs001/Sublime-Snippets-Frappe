@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+frm.add_custom_button(__('${1:button_name}'), function () {
+	// Your code on button 
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>add_custom_button</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

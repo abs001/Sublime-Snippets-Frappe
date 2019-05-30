@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+cur_frm.fields_dict.${1:field_name}.get_query = function(doc, cdt, cdn) {
+	return { query: "${2:dotted_path_of_your_query}" }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>get_query</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
