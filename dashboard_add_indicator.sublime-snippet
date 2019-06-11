@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${1:cur_frm}.dashboard.add_indicator(__('${2:'Your message goes here'}'), '${3:color}');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dashboard.add_indicator</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

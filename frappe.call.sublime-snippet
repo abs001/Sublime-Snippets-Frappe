@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+${1:frappe}.call({
+	method: "${2:method_path}",
+	doc: doc,
+	args: {
+		// argumensts to pass
+	},
+	async: ${3:false},
+	callback: function(r) {
+		if(r.message) {
+			
+		}
+	}
+});
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>frappe.call</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
