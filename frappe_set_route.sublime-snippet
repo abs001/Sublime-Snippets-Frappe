@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+frappe.set_route('${1:can be Form, List, Tree}', '${2:Whre to route ?}', '${3:optional: record_name}');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>frappe.set_route</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+frappe.prompt([
+	{'fieldname': '${1:field_name}', 'fieldtype': '${2:field_type}', 'label': '${3:label}', 'reqd': ${4:1}}],
+	function(values){
+		// Your code
+	},
+	'${5:Title}',
+	'${6:Button Label}'
+)
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>frappe.prompt</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
