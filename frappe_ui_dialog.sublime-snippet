@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+var d = new frappe.ui.Dialog({
+	title: __("${1:this}"),
+	fields: [
+		{
+			'fieldname': '${2:field_name}',
+			'fieldtype': '${3:field_type}',
+			'label': __('${4:label}'),
+		}
+	],
+});
+d.show();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>frappe.ui.dialog</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
