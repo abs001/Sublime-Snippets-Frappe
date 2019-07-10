@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+doc.check_permission(${1:permtype}, ${2:perm_level_optional})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>doc.check_permission</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<description> 			Raise `frappe.PermissionError` if not permitted</description>
+	<scope>source.python</scope>
+</snippet>
