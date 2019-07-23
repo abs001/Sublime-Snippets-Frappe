@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+frappe.utils.validate_email_address("${1:email_id}")
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>frappe.utils.validate_email_address</tabTrigger>
+	<scope>source.python</scope>
+</snippet>
