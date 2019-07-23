@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+frappe.get_all("${1:doctype}", filters=${2:filters_dict}, fields=${3:fields_list})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>frappe.get_all</tabTrigger>
+	<description> 					Returns List of dict</description>
+	<scope>source.python</scope>
+</snippet>

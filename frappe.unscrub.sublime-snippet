@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+frappe.unscrub(${1:Your String})
+]]></content>
+	<tabTrigger>frappe.unscrub</tabTrigger>
+	<description> 	Returns titlified string. e.g. `sales_order` becomes `Sales Order`.</description>
+	<scope>source.python</scope>
+</snippet>

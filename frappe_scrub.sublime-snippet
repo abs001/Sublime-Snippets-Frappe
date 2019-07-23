@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+frappe.scrub(${1:Your String})
+]]></content>
+	<tabTrigger>frappe.scrub</tabTrigger>
+	<description> 	Returns sluggified string. e.g. `Sales Order` becomes `sales_order`.</description>
+
+	<scope>source.python</scope>
+</snippet>

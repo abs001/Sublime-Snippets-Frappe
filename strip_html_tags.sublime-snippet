@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+strip_html_tags(${1:Your String})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>strip_html_tags</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<description> 				Removes html tags from string (Need to import frappe.utils)</description>
+	<scope>source.python</scope>
+</snippet>

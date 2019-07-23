@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+get_last_doc(${1:doctype})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>get_last_doc</tabTrigger>
+	<description> 					Get last created document of this type.</description>
+	<scope>source.python</scope>
+</snippet>

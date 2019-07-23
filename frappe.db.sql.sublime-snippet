@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+frappe.db.sql("${1:your_query_goes_here}")
+]]></content>
+	<tabTrigger>frappe.db.sql</tabTrigger>
+	<description>   				- returns a SQL query result</description>
+	<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+frappe.db.exists("${1:doctype}", "${2:record_name}")
+]]></content>
+	<tabTrigger>frappe.db.exists</tabTrigger>
+	<description>   					- Rerurs name of record if exists</description>
+	<scope>source.python</scope>
+</snippet>

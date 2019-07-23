@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+frappe.as_json(${1:doc_object}, ${2:indent})
+]]></content>
+	<tabTrigger>frappe.as_json</tabTrigger>
+	<description>  				Return formatted json when object of doc is passed</description>
+	<scope>source.python</scope>
+</snippet>

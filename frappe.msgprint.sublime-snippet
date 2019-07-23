@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+frappe.msgprint("${1:your_message_goes_here}")
+]]></content>
+	<tabTrigger>frappe.msgprint</tabTrigger>
+	<description>  					- For printing a popup message</description>
+	<scope>source.python</scope>
+</snippet>
