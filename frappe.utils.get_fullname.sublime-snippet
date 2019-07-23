@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+frappe.utils.get_fullname(${1:user_id})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>frappe.utils.get_fullname</tabTrigger>
+	<description>  			- get the full name (first name + last name) of the user from User</description>
+	<scope>source.python</scope>
+</snippet>

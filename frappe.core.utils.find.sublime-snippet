@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+frappe.core.utils.find(${1:list_of_dict}, ${2:match_function})
+]]></content>
+	<tabTrigger>frappe.core.utils.find</tabTrigger>
+	<description>
+		Returns a dict in a list of dicts on matching the conditions provided in match function
+	</description>
+	<scope>source.python</scope>
+</snippet>

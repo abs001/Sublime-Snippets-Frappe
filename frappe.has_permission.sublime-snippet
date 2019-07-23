@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+frappe.has_permission("${1:doctype}", "${2:permission (e.g. read, write)}", ${3:doc_object (optional)}, "${4:user_id (optional)}" )
+]]></content>
+	<tabTrigger>frappe.has_permission</tabTrigger>
+	<description>   						- Returns True/1 if user have given permission</description>
+	<scope>source.python</scope>
+</snippet>
