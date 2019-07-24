@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+Hello, ${1:this} is a ${2:snippet}.
+frappe.generate_hash(${1:text}, length=${2:length})
+]]></content>
+	<tabTrigger>frappe.generate_hash</tabTrigger>
+	<description>Generates random hash for given text + current timestamp + random string</description>
+	<scope>source.python</scope>
+</snippet>

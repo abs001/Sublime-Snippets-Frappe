@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+frappe.get_precision(${1:doctype}, ${2:field_name}, currency=${3:currency}, doc=None)
+]]></content>
+	<tabTrigger>frappe.get_precision</tabTrigger>
+	<scope>source.python</scope>
+</snippet>
