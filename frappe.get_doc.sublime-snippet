@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+frappe.get_doc("${1:doctype}", "${2:record_name}")
+]]></content>
+	<tabTrigger>frappe.get_doc</tabTrigger>
+	<scope>source.python</scope>
+</snippet>
