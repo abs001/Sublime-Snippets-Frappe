@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+var field_name = frappe.meta.get_docfield('Child Table Name', "field_name", frm.doc.name);
+field_name.read_only = 1;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>frappe.read_only.child_field</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>  --Make child table field read-only</description>
+</snippet>
